@@ -1,0 +1,20 @@
+#Sử dụng hàm main
+import sys
+def solve():
+    #Viết code
+    pass
+if __name__ == "main":
+    sys.stdin = open("Tenfile.INP",'r')
+    sys.stdout = open("Tenfile.OUT",'w')
+    solve()
+
+#Tối ư code
+sys.stdin.readline #thay input() để đọc dữ liệu nhanh
+[i for i in range(n)] #Nhay hơn so với dùng vòng lặp for và append()
+sum(),max(),min(), sorted() #Ưu tiên dùng
+''.join(list) #Thay dùng + trong lặp
+print(*arr) #In mảng nhanh
+map(int,sys.stdin.read().split()) #Xử lý nhiều số
+n = len(a)
+range(n) #Tránh lặp hàm
+math.gcd(), math.sqrt() #Tối ưu tính
