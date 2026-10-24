@@ -8,7 +8,7 @@ if __name__ == "main":
     sys.stdout = open("Tenfile.OUT",'w')
     solve()
 
-#Tối ư code
+#Tối ưu code
 sys.stdin.readline #thay input() để đọc dữ liệu nhanh
 [i for i in range(n)] #Nhay hơn so với dùng vòng lặp for và append()
 sum(),max(),min(), sorted() #Ưu tiên dùng
