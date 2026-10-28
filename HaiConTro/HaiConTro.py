@@ -3,7 +3,7 @@ def tim_cap_so(mang,k):
     trai = 0
     phai = len(mang)-1
     while trai<phai:
-        tong_ht mang[trai]+mang[phai]
+        tong_ht = mang[trai]+mang[phai]
         if tong_ht == k:
             return mang[trai],mang[phai]
         elif tong_ht < k:
